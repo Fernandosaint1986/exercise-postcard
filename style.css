@@ -33,3 +33,8 @@ h1 {
 body {
 	background-color: black;
 }
+.button {
+	margin-bottom: 30px;
+	padding-right: 25px;
+	padding-left: 20px;
+}
