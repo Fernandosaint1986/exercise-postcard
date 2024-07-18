@@ -2,11 +2,10 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 p {
-	color: blue;
+	color: rgb(19, 19, 49);
 }
 .postcard {
 	background: white;
@@ -18,14 +17,29 @@ p {
 	display: flex;
 }
 .postcard-header img {
-	display: inline;
 	width: 50px;
 	height: 50px;
+}
+.postcard-body {
+	display: flex;
 }
 .postcard-header h1 {
 	width: 200px;
 	margin-bottom: 0%;
 }
-.postcard-body {
-	display: flex;
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 50px;
+}
+input {
+	border: none;
+	border-bottom: gray;
+}
+.postcard-footer {
+	text-align: center;
+	background-color: darkblue;
+	padding: 15px;
 }
